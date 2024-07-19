@@ -39,7 +39,7 @@ app.post('/send-email', async (req, res) => {
 });
 
 app.get('/ping', async (req, res) => {
-   res.status(200).send({ message: 'Pong!'});
+   res.status(200).send({ message: 'Pong!!'});
 });
 
 app.listen(port, () => {
